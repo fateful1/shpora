@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/icon.png">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <title>PacMonManual</title>
+</head>
+<body>
+    <header>
+        <div>
+            <div class='nav'>
+                <span><img src='img/icon.png' width='36px' height='36px'></span>
+                <ul>
+                    <li>
+                        <a href='index.html'>
+                            Главная
+                        </a>
+                    </li>
+                    <li>
+                        <a href='pageOne.html'>
+                            Блинки
+                        </a>
+                    </li>
+                    <li>
+                        <a href='pageTwo.html'>
+                            Пинки
+                        </a>
+                    </li>
+                    <li>
+                        <a href='pageThree.html'>
+                            Инки
+                        </a>
+                    </li>
+                    <li>
+                        <a href='pageFour.html'>
+                            Клайд
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <form class='search'>
+            <input placeholder='Хочу в Контур.. хи-хи'>
+            <button disabled>
+                <img src='img/search.png' width='16px' height='16px' alt="Поиск">
+            </button>
+        </form>
+    </header>
+    <main>
+        <div></div>
+        <div class="body_wrapper" style='display:flex; align-items: center;'>
+            <div class='description' >
+                <img src='img/inky.png' alt='Блинки' width="250px">
+                <div class='text'>
+                    <h2>Инки</h2>
+                    <p>Привидение по имени Инки остается в домике на короткое время на первом уровне и 
+                        не бросается в погоню пока пэкмен не съест как минимум 30 точек. На английском его описывают как «застенчивый», 
+                        «робкий» (bashful). Поведение Инки сложно предсказать, потому что это единственный призрак, 
+                        который использует в своей погоне не только положение пакмана. Инки использует положение и направление 
+                        как пакмана, так и Блинки (красного привидения). Метод таргетинга Инки примерно таков: он выбирает клетку 
+                        на две клетки перед пакманом (почти как Пинки), затем представьте себе вектор от Блинки до этой точки 
+                        и удвойте его. Конец вектора и будет целевя клетка Инки. <br><br> Таким образом цель Инки может быть где угодно, 
+                        пока Блинки не близко с пакманом, но если Блинки удалось сблизиться, Инки сделает то же самое. 
+                        Заметьте, что его вычисление «двух клеток перед пакманом» страдает ровно той же ошибкой переполнения, 
+                        что и у Пинки, так что если пакман движется вверх, конец вектора из Блинки (до удвоения) 
+                        будет на самом деле на две плитки слева от пакмана.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div></div>
+    </main>
+    <footer>
+        <div>сделано с душой!</div>
+        <div>
+            <a href='mailto:facelessasha@yandex.ru'>facelessasha@yandex.ru</a>
+        </div>
+        <div>
+            <a href='https://github.com/fateful1'>GitHub</a>
+        </div>
+        <div>
+            <a href='https://t.me/fateful1'>Telegram</a>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,24 @@
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    font-size: 14px;
+    background-color: #6da796;
+    flex: 0 0 auto;
+    flex-wrap: wrap;
+}
+
+footer div {
+    padding: 0 10px;
+    border-right: 1px dashed black;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+footer div:last-of-type {
+    border: none;
+}

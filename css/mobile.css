@@ -1,0 +1,23 @@
+@media (max-width: 600px) {
+    html {
+        font-size: 10px;
+    }
+
+    .nav>span:active > ul {
+        display: block;
+    }
+
+    .description img {
+        width: 120px;
+    }
+
+    footer {
+        font-size: 8px;
+    }
+}
+
+@media (max-width: 400px) {
+    .description img {
+        width: 75px;
+    }
+}
